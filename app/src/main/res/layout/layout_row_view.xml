@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="horizontal|vertical"
+        android:weightSum="110">
+
+        <TextView
+            android:id="@+id/txtno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="15"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="10sp"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/txtrollno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="10"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="10sp"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="10"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtp1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="10"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="10"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtp3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtp4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtp5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtEng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txthome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txtcopy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="5"
+            android:text="TextView"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+</RelativeLayout>
